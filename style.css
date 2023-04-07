@@ -1,106 +1,99 @@
-
+/*o asterisco (*) é um seletor universal para alterar toda a página*/
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0; /*Altera o espaçamento externo*/
+    padding: 0; /*Altera o espaçamento interno*/
     }
 
 .cabecalho {
-    background-color: #F9DEDE;
-    color: #000000;
-    display: flex; /*propriedade organiza os elementos lado a lado e só deve trocar de linha quando o espaço ocupado pela linha atual terminar.*/
-    justify-content: space-around;
-    padding: 24px 0;/*Altera o espaçamento interno*/
+    background-color: #F9DEDE;/*cor de fundo*/
+    color: #000000; /*cor*/
+    display: flex; /*utilizaremos a propriedade flex para organizar os itens do cabeçalho, lado a lado*/
+    justify-content: space-around; /*alinha as imagens e os textos com espaçamentos entre eles(estamos usando entre os itens no cabeçalho)*/
+    padding: 24px 0; /*Altera o espaçamento interno*/
     }
 
 .cabecalho-imagem{
-   width: 191px;
+   width: 191px; /*largura*/
 }
 
 .escola{
-    background-image: linear-gradient(#F9DEDE,#fcf9f9);
-    color: #000000;
-    display: flex;/*organizar a estrutura do nosso conteúdo*/
-    justify-content: center;
-    padding: 24px 0;
+    background-image: linear-gradient(#F9DEDE,#fcf9f9); /*define um gradiente linear como a imagem de fundo, deve definir pelo menos duas paradas de cor */
+    color: #000000; /*cor*/
+    display: flex; /*organizar a estrutura do nosso conteúdo*/
+    justify-content: center; /*alinha imagem e os textos com espaçamentos entre eles*/
+    padding: 24px 0; /*Altera o espaçamento interno*/
 }
 
 .escola-div-conteudo{
-    width: 45%;
+    width: 45%; /*largura*/
 }
 
 .titulo-principal{
-    text-align: center;
+    text-align: center; /*alinhamento de texto centralizado*/
     padding: 24px 0; /*Altera o espaçamento interno*/
-    font-size: 44px;
+    font-size: 44px; /*tamanho da fonte*/
 }
 
 .escola-titulo{
-    padding: 24px 0;
+    padding: 24px 0; /*Altera o espaçamento interno*/
 }
 .imagem-escola{
-    width: 35%;
-    height: 350px;
-    border-radius: 52px;
+    width: 35%; /*largura*/
+    height: 350px; /*altura*/
+    border-radius: 52px; /*para definir bordas arredondadas da imagem*/
 }
 
 .cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    padding: 24px 0;/*Altera o espaçamento interno*/
-    font-size: 24px;
+    display: inline-block; /*o valor inline-block na propriedade display, os itens da lista ficam lado a lado*/
+    padding: 0 24px; /*Altera o espaçamento interno*/
+    margin-top: 40px; /*define as dimensões da margem superior*/
+    font-size: 24px; /*para alterar o tamanho da fonte*/
 }
 
 .estudante{
-    background-color: #fcf9f9;
+    background-color: #fcf9f9; /*cor de fundo*/
 }
 .estudante-titulo{
-    padding: 24px 0;
+    padding: 24px 0; /*Altera o espaçamento interno*/
 }
 
 .estudante-imagem{
-/* imagem estudante 2 1 */
-    width: 120px;
+    width: 120px; /*largura*/
 }
 
 .estudante-icone{
-    width: 24px;
-    padding: 4px 8px;
+    width: 24px; /*largura*/
+    padding: 4px 8px; /*Altera o espaçamento interno,o primeiro valor se aplica às bordas verticais (superior e inferior) e o segundo se aplica às bordas horizontais(esquerda e direita)*/
 }
 
 .estudante-div{
-    /* centralizar a imagem e conteúdo da imagem */
-    text-align: center;
-    padding: 16px 0;
+    text-align: center; /*alinhamento de texto centralizado*/
+    padding: 16px 0; /*Altera o espaçamento interno*/
 }
 
 .estudante-titulo{
-    /* centralizar o titulo */
-    text-align: left;
-    /* alinhar o espaçamento */
-    padding: 24px 0;
-    margin: 0 60px;
+    text-align: left; /*alinhamento de texto, esquerda*/
+    padding: 24px 0; /*Altera o espaçamento interno*/
+    margin: 0 60px; /*Altera o espaçamento externo*/
 }
 
 p{
-   /* centralizar o titulo */
-   text-align: left;
-   /* alinhar o espaçamento */
-   margin: 0 60px; 
+   text-align: left; /*alinhamento de texto, esquerda*/
+   margin: 0 60px; /*Altera o espaçamento externo*/
 }
 .estudantes-todos{
-     /* especificar o espaçamento do grid(organizar por colunas) */
-     display: grid;
-     grid-template-columns: 25% 25% 25% 25%;
-     margin: 40px 0;
+     display: grid; /* especificar o espaçamento do grid(organizar por colunas) */
+     grid-template-columns: 25% 25% 25% 25%; /*Os valores são uma lista separada por espaços, onde cada valor especifica o tamanho da respectiva coluna*/
+     margin: 40px 0; /*Altera o espaçamento externo*/
 }
 
 .rodape{
     background-image: linear-gradient(#fcf9f9,#F9DEDE);
-  
+  /*define um gradiente linear como a imagem de fundo, deve definir pelo menos duas paradas de cor */
 }
 
 .copyright{
-        text-align: center;
-        height: 100px;
-        line-height: 100px;         
+        text-align: center; /*alinhamento de texto centralizado*/
+        height: 100px; /*altura*/
+        line-height: 100px; /*altura da linha*/        
 }
