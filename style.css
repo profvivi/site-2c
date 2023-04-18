@@ -150,7 +150,7 @@ p{
  }
  @media only screen and (max-width: 380px) {
 
-    cabecalho{
+    footer{
         width: auto;
     }
 }
