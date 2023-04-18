@@ -124,10 +124,10 @@ p{
         font-size: 12px;/*tamanho da fonte*/ 
 }
 
-/*FIM SEÇÃO RODAPÉ*/
+/*FIM SEÇÃO RODAPÉ
 
 @media only screen and (max-width: 380px) {
 
     header{
         width: auto;
-    }
+    }*/
