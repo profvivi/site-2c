@@ -15,7 +15,6 @@
 
 .cabecalho-imagem {
     width: 180px; /*largura*/
-    height: 180px;
     border-radius: 30px; /*para definir bordas arredondadas da imagem*/
 }
 
