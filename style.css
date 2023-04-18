@@ -124,10 +124,32 @@ p{
         font-size: 12px;/*tamanho da fonte*/ 
 }
 
-/*FIM SEÇÃO RODAPÉ
+/*FIM SEÇÃO RODAPÉ*/
+@media only screen and (min-width : 320px) and (max-width : 1440px){
+    .cabecalho{
+        min-width: 320px;
+       max-width: 1440px;
+      
+    }
+    .cabecalho-imagem {
+       min-width: 5px;
+       max-width: 180px;
+ }
+.cabecalho-titulo {
+    padding: 10px 0;  
+    font-size: 20px; 
+    
+}
 
+.cabecalho-lista-item {
+    padding: 0 20px; 
+    margin-top: 20px;
+    font-size: 10px;     
+}
+
+ }
 @media only screen and (max-width: 380px) {
 
     header{
         width: auto;
-    }*/
+    }
