@@ -14,7 +14,7 @@
 }
 
 .cabecalho-imagem {
-    width: 480px; /*largura*/
+    width: 580px; /*largura*/
     border-radius: 30px; /*para definir bordas arredondadas da imagem*/
 }
 
@@ -132,8 +132,8 @@ p{
       
     }
     .cabecalho-imagem {
-      width: 80px;
-      height: 80px;
+      width: 60px;
+      height: 60px;
  }
 .cabecalho-titulo {
     padding: 10px 0;  
