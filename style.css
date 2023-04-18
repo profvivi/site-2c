@@ -21,7 +21,7 @@
 .cabecalho-titulo {
     padding: 30px 0; /*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
     segundo valor bordas horizontais(esquerda e direita)*/
-    font-size: 3vw; /*tamanho da fonte*/
+    font-size: 4vw; /*tamanho da fonte*/
     font-family: Arial, Helvetica, sans-serif; /*especifica a fonte de um elemento*/
 }
 
@@ -137,14 +137,14 @@ p{
  }
 .cabecalho-titulo {
     padding: 10px 0;  
-    font-size: 20px; 
+    font-size: 2vw; 
     
 }
 
 .cabecalho-lista-item {
     padding: 0 20px; 
     margin-top: 20px;
-    font-size: 10px;     
+    font-size: 1vw;     
 }
 
  }
