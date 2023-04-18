@@ -29,7 +29,7 @@
     display: inline-block; /*o valor inline-block na propriedade display, os itens da lista ficam lado a lado*/
     padding: 0 24px; /*Altera o espaçamento interno*/
     margin-top: 40px; /*define as dimensões da margem superior*/
-    font-size: 2.5vw; /*tamanho da fonte*/
+    font-size: 2vw; /*tamanho da fonte*/
     font-family: Arial, Helvetica, sans-serif; /*especifica a fonte de um elemento*/
 }
 
