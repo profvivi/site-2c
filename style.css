@@ -132,7 +132,8 @@ p{
       
     }
     .cabecalho-imagem {
-      width: auto;
+      width: 30px;
+      height: 30px;
  }
 .cabecalho-titulo {
     padding: 10px 0;  
