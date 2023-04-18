@@ -142,7 +142,7 @@ p{
 }
 
 .cabecalho-lista-item {
-    padding: 0 20px; 
+    padding: 0 10px; 
     margin-top: 20px;
         
 }
@@ -154,10 +154,5 @@ p{
     header{
         width: auto;
     }
-    section{
-        width: auto;
-    }
-    footer{
-        width: auto;
-    }
+   
 }*/
