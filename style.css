@@ -148,3 +148,8 @@ p{
 }
 
  }
+ @media only screen and (max-width: 380px) {
+
+    cabecalho{
+        width: auto;
+    }
