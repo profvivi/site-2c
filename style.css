@@ -124,7 +124,7 @@ p{
         font-size: 12px;/*tamanho da fonte*/ 
 }
 
-/*FIM SEÇÃO RODAPÉ
+/*FIM SEÇÃO RODAPÉ*/
 @media only screen and (min-width : 320px) and (max-width : 1440px){
     .cabecalho{
         min-width: 320px;
@@ -147,7 +147,8 @@ p{
     font-size: 10px;     
 }
 
- }*/
+ }
+ /*
  @media only screen and (max-width: 320px) {
 
     header{
@@ -159,4 +160,4 @@ p{
     footer{
         width: auto;
     }
-}
+}*/
