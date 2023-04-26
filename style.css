@@ -33,6 +33,9 @@
     font-family: Arial, Helvetica, sans-serif; /*especifica a fonte de um elemento*/
 }
 
+.cabecalho-lista-item a {
+    text-decoration: none;
+}
  /*INICIO SEÇÃO ESCOLA*/
 
  #escola{
