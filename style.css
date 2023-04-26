@@ -14,7 +14,7 @@
 }
 
 .cabecalho-imagem {
-    width: 180px; /*largura*/
+    width: 191px; /*largura*/
     border-radius: 30px; /*para definir bordas arredondadas da imagem*/
 }
 
@@ -124,21 +124,5 @@ p{
         font-size: 12px;/*tamanho da fonte*/ 
 }
 
-/*FIM SEÇÃO RODAPÉ
-@media only screen and (min-width : 320px) and (max-width : 1440px){
-    .cabecalho{
-        min-width: 320px;
-       max-width: 1440px;
-      
-    }
-    .cabecalho-imagem {
-      width: 60px;
-      height: 60px;
- }
-.cabecalho-titulo {
-    padding: 10px 0;  
-    
-    
-}
-}*/
+
  
