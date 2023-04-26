@@ -35,7 +35,7 @@
 
  /*INICIO SEÇÃO ESCOLA*/
 
- .escola{
+ #escola{
     background-image: linear-gradient(#F9DEDE,#fcf9f9); /*define um gradiente linear como a imagem de fundo, 
     deve definir pelo menos duas paradas de cor */
     color: #000000; /*cor*/
@@ -67,7 +67,7 @@
 }
 
 /*INICIO SEÇÃO ESTUDANTE*/
-.estudante{
+#estudante{
     background-color: #fcf9f9; /*cor de fundo*/
     color: #000000; /*cor*/
 }
