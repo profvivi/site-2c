@@ -14,14 +14,14 @@
 }
 
 .cabecalho-imagem {
-    width: 191px; /*largura*/
+    width: 180px; /*largura*/
     border-radius: 30px; /*para definir bordas arredondadas da imagem*/
 }
 
 .cabecalho-titulo {
     padding: 30px 0; /*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
     segundo valor bordas horizontais(esquerda e direita)*/
-    font-size: max(60px, 3vw); /*tamanho da fonte*/
+    font-size: 44px; /*tamanho da fonte*/
     font-family: Arial, Helvetica, sans-serif; /*especifica a fonte de um elemento*/
 }
 
@@ -29,7 +29,7 @@
     display: inline-block; /*o valor inline-block na propriedade display, os itens da lista ficam lado a lado*/
     padding: 0 24px; /*Altera o espaçamento interno*/
     margin-top: 40px; /*define as dimensões da margem superior*/
-    font-size: 2vw; /*tamanho da fonte*/
+    font-size: 20px; /*tamanho da fonte*/
     font-family: Arial, Helvetica, sans-serif; /*especifica a fonte de um elemento*/
 }
 
